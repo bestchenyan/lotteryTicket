@@ -2,13 +2,12 @@
 * @Author: lenovo
 * @Date:   2018-10-14 12:11:47
 * @Last Modified by:   lenovo
-* @Last Modified time: 2018-10-15 08:49:20
+* @Last Modified time: 2018-10-19 09:53:39
 */
-import gulp from 'gulp';
-import gulpif from 'gulp-if';
-import livereload from 'gulp-livereload';
-import args from './util/args';
-
+var gulp = require('gulp');
+var gulpif = require('gulp-if');
+var livereload = require('gulp-livereload');
+var args = require('./util/args');
 gulp.task('css',()=>{
 	return gulp.src('app/**/*.css')
 	.pipe(gulp.dest('server/public'))

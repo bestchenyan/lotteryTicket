@@ -2,10 +2,9 @@
  * @Author: lenovo
  * @Date:   2018-10-14 11:25:47
  * @Last Modified by:   lenovo
- * @Last Modified time: 2018-10-14 22:51:33
+ * @Last Modified time: 2018-10-19 11:33:19
  */
-import yargs from 'yargs';
-
+var yargs = require('yargs');
 const args = yargs
     // 区分是线上还是开发环境，默认false 开发环境
     .option('production', {
@@ -35,6 +34,4 @@ const args = yargs
         default: 8080,
         describe: 'server port'
     })
-
     .argv
-export default args;

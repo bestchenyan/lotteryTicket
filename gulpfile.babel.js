@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2018-10-14 11:29:42
 * @Last Modified by:   lenovo
-* @Last Modified time: 2018-10-14 19:46:20
+* @Last Modified time: 2018-10-19 09:49:04
 */
-import requireDir from 'require-dir';
+var  requireDir =require('require-dir');
 requireDir('./tasks');
